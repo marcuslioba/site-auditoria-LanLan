@@ -165,36 +165,46 @@ footer p{font-size:12px;color:var(--muted)}
 <div class="section">
   <div class="eyebrow">Visão geral</div>
   <div class="section-title">O que o sistema faz</div>
-  <div class="grid-3">
-    <div class="card">
-      <span class="card-icon">📱</span>
-      <h3>Roda no celular</h3>
-      <p>Sem instalar aplicativo. O auditor acessa por um link, faz login pelo PIN e já pode auditar.</p>
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">📱</span>
+        <div><h3>Roda no celular</h3><p>Sem instalar aplicativo. O auditor acessa por um link, faz login pelo PIN e já pode auditar.</p></div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">📋</span>
+        <div><h3>Checklists por categoria</h3><p>Itens agrupados por seção. O auditor responde uma categoria por vez, sem se perder em listas longas.</p></div>
+      </div>
     </div>
-    <div class="card">
-      <span class="card-icon">📋</span>
-      <h3>Checklists por categoria</h3>
-      <p>Itens agrupados por seção. O auditor responde uma categoria por vez, sem se perder em listas longas.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">📷</span>
+        <div><h3>Evidência fotográfica</h3><p>Itens marcados como "foto obrigatória" bloqueiam o avanço até que a foto seja tirada na hora.</p></div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">📍</span>
+        <div><h3>Geolocalização</h3><p>O sistema registra as coordenadas do auditor no momento do check-in e confirma a presença na loja.</p></div>
+      </div>
     </div>
-    <div class="card">
-      <span class="card-icon">📷</span>
-      <h3>Evidência fotográfica</h3>
-      <p>Itens marcados como "foto obrigatória" bloqueiam o avanço até que a foto seja tirada na hora.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">✍️</span>
+        <div><h3>Assinatura digital</h3><p>Auditor e responsável da loja assinam com o dedo na tela antes de finalizar. Tudo registrado.</p></div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">📄</span>
+        <div><h3>PDF gerado automaticamente</h3><p>Ao finalizar, o sistema gera um PDF completo com score, itens, fotos, observações e assinaturas — sem nenhuma etapa extra.</p></div>
+      </div>
     </div>
-    <div class="card">
-      <span class="card-icon">📍</span>
-      <h3>Geolocalização</h3>
-      <p>O sistema registra as coordenadas do auditor no momento do check-in e confirma a presença na loja.</p>
-    </div>
-    <div class="card">
-      <span class="card-icon">✍️</span>
-      <h3>Assinatura digital</h3>
-      <p>Auditor e responsável da loja assinam com o dedo na tela antes de finalizar. Tudo registrado.</p>
-    </div>
-    <div class="card">
-      <span class="card-icon">📊</span>
-      <h3>Google Sheets como banco</h3>
-      <p>Todos os dados salvam direto na planilha da empresa. Nenhum servidor próprio necessário.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">💬</span>
+        <div><h3>Envio direto pelo WhatsApp</h3><p>Com um toque, o resultado é enviado ao responsável da loja com o resumo e a lista de itens não conformes.</p></div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:16px">
+        <span style="font-size:28px;flex-shrink:0">📊</span>
+        <div><h3>Google Sheets como banco</h3><p>Todos os dados salvam direto na planilha da empresa. Nenhum servidor próprio necessário.</p></div>
+      </div>
     </div>
   </div>
 </div>
